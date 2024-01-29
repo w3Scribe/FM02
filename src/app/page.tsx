@@ -10,11 +10,11 @@ interface ISocialLinks {
 
 export default function Home(): JSX.Element {
   return (
-    <main className="w-screen h-[100svh] sm:h-[100vh] grid place-items-center bg-red-950">
+    <main className="w-screen h-[100svh] sm:h-screen grid place-items-center bg-zinc-950">
       {/* card container */}
       <div className="w-[300px] sm:w-[260px] min-h-80 bg-zinc-900/50 rounded-lg flex flex-col items-center p-5 gap-y-3 shadow-lg">
         {/* profile image */}
-        <div className=" w-20 aspect-square rounded-[50%] bg-zinc-800/10 relative overflow-hidden border border-zinc-800/50 hover:border-lime-400">
+        <div className=" w-20 aspect-square rounded-[50%] bg-zinc-800/10 relative overflow-hidden border border-zinc-800/60 hover:border-lime-400">
           <Image
             src="/avtar.png"
             loading="lazy"
