@@ -8,9 +8,9 @@ interface ISocialLinks {
   key: string;
 }
 
-export default function Home():JSX.Element {
+export default function Home(): JSX.Element {
   return (
-    <main className="w-screen h-screen grid place-items-center bg-zinc-950">
+    <main className="w-screen h-[100svh] sm:h-[100vh] grid place-items-center bg-red-950">
       {/* card container */}
       <div className="w-[300px] sm:w-[260px] min-h-80 bg-zinc-900/50 rounded-lg flex flex-col items-center p-5 gap-y-3 shadow-lg">
         {/* profile image */}
